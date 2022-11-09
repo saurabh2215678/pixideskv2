@@ -8,12 +8,12 @@ const Header = () => {
   return (
     <header className="w-full fixed top-0 py-8 select-none z-50 bg-gradient-to-b from-gray-900 to-transparent">
       <div className="flex justify-between section-container">
-        <a href="#home" className="link">
+        <a href="#home" className="link head_logo">
           <Image
             src="/logo.svg"
-            alt="Logo - Ayush Singh"
-            width={22}
-            height={22}
+            alt="Logo - Saurabh Singh"
+            width={120}
+            height={60}
           />
         </a>
         <nav className={`outer-menu ${menuVisible ? "menu-visible" : ""}`}>

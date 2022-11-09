@@ -242,3 +242,5 @@ footer {
 .section-title-sm {
   @apply uppercase tracking-widest text-gray-200 text-sm;
 }
+foreignObject img { object-fit: contain; }
+.head_logo { transform: translateY(-24px); }

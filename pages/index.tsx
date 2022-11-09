@@ -82,7 +82,7 @@ export default function Home() {
           <CollaborationSection />
           <Footer />
         </main>
-        <Scripts />
+        {/* <Scripts /> */}
       </Layout>
     </>
   );
